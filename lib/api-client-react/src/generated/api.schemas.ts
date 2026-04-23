@@ -83,29 +83,17 @@ export interface SentimentResponse {
   timestamp: string;
 }
 
-export interface NewsArticle {
-  title: string;
-  source: string;
-  summary: string;
-  /** BULLISH, BEARISH, NEUTRAL */
-  sentiment: string;
-  relevantSymbols: string[];
-  publishedAt: string;
-  url?: string;
-}
-
-export interface NewsResponse {
-  articles: NewsArticle[];
-  lastUpdated: string;
-}
-
-export type GetNewsParams = {
-  symbol?: string;
-};
-
 export interface StockAnalyzeRequest {
   ticker: string;
 }
+
+export type StockAnalyzeResponseAnalystCounts = {
+  strongBuy: number;
+  buy: number;
+  hold: number;
+  sell: number;
+  strongSell: number;
+};
 
 export interface StockAnalyzeResponse {
   ticker: string;
@@ -133,13 +121,7 @@ export interface StockAnalyzeResponse {
   debtToEquity: number | null;
   targetMeanPrice: number | null;
   recommendationKey: string;
-  analystCounts: {
-    strongBuy: number;
-    buy: number;
-    hold: number;
-    sell: number;
-    strongSell: number;
-  };
+  analystCounts: StockAnalyzeResponseAnalystCounts;
   hasRealData: boolean;
   verdict: string;
   verdictScore: number;
@@ -159,3 +141,41 @@ export interface StockAnalyzeResponse {
   disclaimer: string;
   timestamp: string;
 }
+
+export interface GitSyncRequest {
+  /** Optional commit message override */
+  message?: string;
+}
+
+export interface GitSyncResponse {
+  ok: boolean;
+  /** pushed, nothing_to_commit, or failed */
+  status: string;
+  /** SHA of the new commit (when one was created) */
+  commitSha?: string;
+  commitMessage?: string;
+  pushedAt: string;
+  /** Human-readable details (e.g. git output snippet) */
+  details?: string;
+  error?: string;
+}
+
+export interface NewsArticle {
+  title: string;
+  source: string;
+  summary: string;
+  /** BULLISH, BEARISH, NEUTRAL */
+  sentiment: string;
+  relevantSymbols: string[];
+  publishedAt: string;
+  url?: string;
+}
+
+export interface NewsResponse {
+  articles: NewsArticle[];
+  lastUpdated: string;
+}
+
+export type GetNewsParams = {
+  symbol?: string;
+};
