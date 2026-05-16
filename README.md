@@ -12,6 +12,10 @@ A React + TypeScript trading intelligence platform with an Express + OpenAI back
 - PostgreSQL + Drizzle ORM
 - OpenAPI / Orval codegen for shared API types
 
+## License
+
+This project is licensed under the [MIT License](./LICENSE).
+
 ## Run
 
 ```bash
