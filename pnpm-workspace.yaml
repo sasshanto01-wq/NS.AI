@@ -46,6 +46,7 @@ overrides:
   yaml: '2.8.4'
   brace-expansion@^2: '2.0.3'
   postcss: '8.5.13'
+  fast-uri: '3.1.2'
   '@esbuild-kit/esm-loader': npm:tsx@^4.21.0
   '@expo/ngrok-bin>@expo/ngrok-bin-darwin-arm64': '-'
   '@expo/ngrok-bin>@expo/ngrok-bin-darwin-x64': '-'
