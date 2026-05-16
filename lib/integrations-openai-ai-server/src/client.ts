@@ -1,3 +1,6 @@
+// SPDX-License-Identifier: MIT
+// Copyright (c) 2026 SasAi
+
 import OpenAI from "openai";
 
 if (!process.env.AI_INTEGRATIONS_OPENAI_BASE_URL) {

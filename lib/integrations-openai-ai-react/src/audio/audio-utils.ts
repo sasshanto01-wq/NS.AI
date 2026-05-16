@@ -1,3 +1,6 @@
+// SPDX-License-Identifier: MIT
+// Copyright (c) 2026 SasAi
+
 /**
  * Audio utility functions for voice chat.
  * Handles PCM16 decoding and AudioContext initialization.

@@ -1,3 +1,6 @@
+// SPDX-License-Identifier: MIT
+// Copyright (c) 2026 SasAi
+
 import app from "./app";
 
 const rawPort = process.env["PORT"];

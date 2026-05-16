@@ -1,3 +1,6 @@
+// SPDX-License-Identifier: MIT
+// Copyright (c) 2026 SasAi
+
 /**
  * React hook for streaming audio playback using AudioWorklet.
  * Supports real-time PCM16 audio streaming from SSE responses.

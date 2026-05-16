@@ -1,3 +1,6 @@
+// SPDX-License-Identifier: MIT
+// Copyright (c) 2026 SasAi
+
 import express, { type Express } from "express";
 import cors from "cors";
 import router from "./routes";

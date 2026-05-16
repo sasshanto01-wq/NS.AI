@@ -1,3 +1,6 @@
+// SPDX-License-Identifier: MIT
+// Copyright (c) 2026 SasAi
+
 import { Router, type IRouter, type Request, type Response, type NextFunction } from "express";
 import { exec } from "node:child_process";
 import { promisify } from "node:util";

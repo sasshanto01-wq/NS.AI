@@ -1,3 +1,6 @@
+// SPDX-License-Identifier: MIT
+// Copyright (c) 2026 SasAi
+
 // Export your models here. Add one export per file
 // export * from "./posts";
 //

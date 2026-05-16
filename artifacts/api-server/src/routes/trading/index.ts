@@ -1,3 +1,6 @@
+// SPDX-License-Identifier: MIT
+// Copyright (c) 2026 SasAi
+
 import { Router, type IRouter } from "express";
 import analyseRouter from "./analyse";
 import whaleRouter from "./whale";
