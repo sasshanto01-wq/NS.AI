@@ -1,3 +1,5 @@
+// SPDX-License-Identifier: MIT
+// Copyright (c) 2026 SasAi
 import { useToast } from "@/hooks/use-toast"
 import {
   Toast,

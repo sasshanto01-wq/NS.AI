@@ -1,3 +1,5 @@
+// SPDX-License-Identifier: MIT
+// Copyright (c) 2026 SasAi
 import { Loader2Icon } from "lucide-react"
 
 import { cn } from "@/lib/utils"

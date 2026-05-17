@@ -1,3 +1,5 @@
+// SPDX-License-Identifier: MIT
+// Copyright (c) 2026 SasAi
 import React, { useEffect, useRef } from 'react';
 import { Card } from '@/components/ui/card';
 

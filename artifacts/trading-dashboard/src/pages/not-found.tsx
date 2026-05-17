@@ -1,3 +1,5 @@
+// SPDX-License-Identifier: MIT
+// Copyright (c) 2026 SasAi
 import { Link } from "wouter";
 import { Button } from "@/components/ui/button";
 import { AlertCircle } from "lucide-react";

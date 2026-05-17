@@ -1,3 +1,5 @@
+// SPDX-License-Identifier: MIT
+// Copyright (c) 2026 SasAi
 import { useQuery, useMutation, useQueryClient } from "@tanstack/react-query";
 import { 
   getWhaleInfo, 

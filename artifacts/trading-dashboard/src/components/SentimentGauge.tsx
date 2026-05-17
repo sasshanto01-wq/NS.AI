@@ -1,3 +1,5 @@
+// SPDX-License-Identifier: MIT
+// Copyright (c) 2026 SasAi
 import React from 'react';
 import { motion } from 'framer-motion';
 import { cn } from '@/lib/utils';

@@ -1,3 +1,5 @@
+// SPDX-License-Identifier: MIT
+// Copyright (c) 2026 SasAi
 import React, { useState } from 'react';
 import { syncGit } from '@workspace/api-client-react';
 import type { GitSyncResponse } from '@workspace/api-client-react/src/generated/api.schemas';

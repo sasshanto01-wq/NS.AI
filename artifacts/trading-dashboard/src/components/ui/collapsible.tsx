@@ -1,3 +1,5 @@
+// SPDX-License-Identifier: MIT
+// Copyright (c) 2026 SasAi
 "use client"
 
 import * as CollapsiblePrimitive from "@radix-ui/react-collapsible"

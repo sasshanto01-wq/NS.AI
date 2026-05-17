@@ -1,3 +1,5 @@
+// SPDX-License-Identifier: MIT
+// Copyright (c) 2026 SasAi
 import { cva, type VariantProps } from "class-variance-authority"
 
 import { cn } from "@/lib/utils"

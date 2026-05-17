@@ -1,3 +1,5 @@
+// SPDX-License-Identifier: MIT
+// Copyright (c) 2026 SasAi
 import React, { useState } from 'react';
 import { ChartPanel } from '@/components/panels/ChartPanel';
 import { WhalePanel } from '@/components/panels/WhalePanel';
